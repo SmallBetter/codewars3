@@ -1,7 +1,7 @@
 /* eslint-disable prefer-arrow-callback */
 
 import { describe, it, beforeEach, afterEach } from 'mocha'
-import chai, { expect } from 'chai'
+import { expect } from 'chai'
 import sinon from 'sinon'
 import WeIrDStRiNgCaSe from '../src/WeIrDStRiNgCaSe'
 
