@@ -5,7 +5,7 @@ import { expect } from 'chai'
 import sinon from 'sinon'
 import CamelCaseMethod from '../src/CamelCaseMethod'
 
-describe('toWeirdCase', function () {
+describe('camelCase', function () {
   let sandbox
 
   beforeEach(function () {
