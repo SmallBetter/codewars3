@@ -39,8 +39,8 @@ describe('toWeirdCase', function () {
     })
 
     it('should String tobe camelCase', function () {
-      return expect(CamelCaseMethod.camelCase('45641'))
-        .to.be.equal('45641')
+      return expect(CamelCaseMethod.camelCase('4564'))
+        .to.be.equal('4564')
     })
   })
 })
