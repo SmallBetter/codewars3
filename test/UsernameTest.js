@@ -29,10 +29,10 @@ describe('toWeirdCase', function () {
 
     it('should to be addUsername year', function () {
       return expect(Username.addUsername([
-        { firstName: 'Nor', lastName: 'E.', age: 20 },
+        { firstName: 'Nor', lastName: 'E.', age: 21 },
       ]))
         .to.be.eqls([
-          { firstName: 'Nor', lastName: 'E.', age: 20, username: 'nore1997' },
+          { firstName: 'Nor', lastName: 'E.', age: 21, username: 'nore1996' },
         ])
     })
   })
